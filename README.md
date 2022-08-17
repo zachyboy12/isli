@@ -15,7 +15,7 @@ def mycli():  # You don't have to do this, but it is cleaner
   
   
   @isli.command('STR')  # Making the below function a command, and giving the type 'STR' to it
-  def echo(next_arg):  # You can place the next_arg param optionally, if you want the next argument
+  def echo(next_arg):
     """A simple echo command that acts like the Unix echo command."""  # If you want a description of your command if you type -h or -help or nothing, you need to put a docstring
     print(next_arg)
     
